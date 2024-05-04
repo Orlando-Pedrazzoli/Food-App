@@ -1,3 +1,16 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Ensure the link doesn't get underlined */
+}
+
+.restaurant-name {
+  margin-left: 10px;
+  color: green;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .navbar {
   padding: 20px 0px;
   display: flex;
@@ -6,6 +19,9 @@
 }
 .navbar .logo {
   width: 150px;
+}
+.logo-pizza {
+  width: 100px;
 }
 .navbar-menu {
   display: flex;

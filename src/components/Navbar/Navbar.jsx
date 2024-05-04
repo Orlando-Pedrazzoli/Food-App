@@ -10,8 +10,9 @@ function Navbar({ setShowLogin }) {
 
   return (
     <div className='navbar'>
-      <Link to='/'>
-        <img src={assets.logo} alt='' />
+      <Link to='/' className='logo-container'>
+        <img className='logo-pizza' src={assets.logo} alt='' />
+        <p className='restaurant-name'>Pizzaria Geovanna</p>
       </Link>
 
       <ul className='navbar-menu'>

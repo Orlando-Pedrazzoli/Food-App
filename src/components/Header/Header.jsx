@@ -4,12 +4,13 @@ function Header() {
   return (
     <div className='header'>
       <div className='header-contents'>
-        <h2>Order your favourite food here</h2>
+        <h2>Descubra o sabor da autenticidade</h2>
         <p>
-          Choose from a diverse menu featuring a delectable array of dishes
-          crafted with the finest ingredients and culinary expertise.
+          Com nossa massa fina e crocante e uma variedade de coberturas
+          autênticas, convidamos você a explorar a verdadeira essência da
+          culinária italiana com um toque brasileiro.
         </p>
-        <button>View Menu</button>
+        <button>Menu</button>
       </div>
     </div>
   );
